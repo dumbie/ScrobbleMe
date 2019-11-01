@@ -1,0 +1,57 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--TextBlock Styles-->
+    <Style TargetType="TextBlock" x:Name="TextBlockTitle">
+        <Setter Property="FontFamily" Value="Segoe UI Semilight" />
+        <Setter Property="FontSize" Value="40" />
+        <Setter Property="TextWrapping" Value="NoWrap"/>
+    </Style>
+
+    <Style TargetType="TextBlock" x:Name="TextBlock">
+        <Setter Property="FontSize" Value="20.5" />
+    </Style>
+
+    <Style TargetType="TextBlock" x:Name="TextBlockBlack">
+        <Setter Property="FontSize" Value="20.5" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style TargetType="TextBlock" x:Name="TextBlockWhite">
+        <Setter Property="FontSize" Value="20.5" />
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <Style TargetType="TextBlock" x:Name="TextBlockGrey">
+        <Setter Property="FontSize" Value="20.5" />
+        <Setter Property="Foreground" Value="#888" />
+    </Style>
+
+    <!--ListBox Styles-->
+    <Style TargetType="ListBox" x:Name="ListBox">
+        <Setter Property="FontSize" Value="20.5" />
+    </Style>
+
+    <!--TextBox Styles-->
+    <Style TargetType="TextBox" x:Name="TextBox">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+    </Style>
+
+    <Style TargetType="PasswordBox" x:Name="PasswordBox">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+    </Style>
+
+    <!--CheckBox Styles-->
+    <Style TargetType="CheckBox" x:Name="CheckBox">
+        <Setter Property="FontSize" Value="20.5" />
+    </Style>
+
+    <!--Button Styles-->
+    <Style TargetType="Button" x:Name="Button">
+        <Setter Property="FontSize" Value="20.5" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Background" Value="#DC1303" />
+        <Setter Property="BorderBrush" Value="#DC1303" />
+        <Setter Property="BorderThickness" Value="3" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Height" Value="75" />
+    </Style>
+</ResourceDictionary>
